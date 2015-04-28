@@ -1,6 +1,5 @@
 #How to insert Flash into web pages
 
----
 
 通常情况下，IE 系列浏览器通过 ActiveX 插件使用 OBJECT 元素引入 Flash，而其他浏览器则是通过相应的 NPAPI 插件使用 EMBED 元素。这造成了各浏览器中插入 Flash 的方式的差异。 
 若仅仅使用 OBJECT 元素设置了 classid 属性引入 Flash，则可能造成在某些浏览器中 Flash 无法被引入。而若嵌套的 OBJECT 和 EMBED 元素参数不统一，也可能造成引入的 Flash 在各浏览器中出现差异。
